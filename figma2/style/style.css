@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Cormorant Upright', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;   
+    text-decoration: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    height: 800vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.container .allWidth {
+    width: 80%;
+    height: 800vh;
+    border: 1px solid red;
+}
+
+/* navbar */
+.container .allWidth .navbar {
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container .allWidth .navbar .right h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.container .allWidth .navbar .center a {
+    margin: 10px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.container .allWidth .navbar .left {
+    width: 26%;
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container .allWidth .navbar .left a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.container .allWidth .navbar .left .dikor {
+    border-left: 1px solid #ffff;
+    width: 1px;
+    height: 30px;
+}
+
+/* navbar */
+
+/* content */
+
+.container .allWidth .content {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .allWidth .content .c_right {
+    width: 30px;
+    height: 600px;
+    border: 1px solid transparent;
+    align-items: center;
+    padding-top: 230px;
+}
+
+.container .allWidth .content .c_right p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    margin-top: 30px;
+}
+
+.container .allWidth .content .c_center {
+    width: 470px;
+    height: 500px;
+    border: 1px solid transparent;
+}
+
+
+.container .allWidth .content .c_center h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+
+
+.container .allWidth .content .c_center h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    margin-bottom: 20px;
+}
+
+
+.container .allWidth .content .c_center p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+
+
+.container .allWidth .content .c_center .button {
+    width: 150px;
+    height: 45px;
+    border: #fff;
+    background-color: #DCCA87;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+
+.container .allWidth .content .c_center .button p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0B08;
+}
+
+
+.container .allWidth .content .img {
+    width: 550px;
+    height: 600px;
+    border: 1px solid transparent;
+    margin-right: 50px;
+    position: relative;
+}
+
+.container .allWidth .content .img .img_one {
+   position: absolute;
+   width: 350px; 
+   height: 400px;
+   margin-left: 200px;
+   background: url("./img/Rectangle\ 21.png");
+   background-repeat: round;
+   z-index: 1;
+}
+
+.container .allWidth .content .img .img_two {
+   position: absolute;
+   width: 350px; 
+   height: 400px;
+   margin-top: 200px;
+   background: url("./img/Rectangle\ 21.png");
+   background-repeat: round;
+   z-index: 2;
+}
+
+
+.container .allWidth .content .img .img_tree{
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    height: 550px;
+    background: url("./img/joseph-gonzalez-fdlZBWIP0aM-unsplash\ 1.jpg");
+    background-repeat: round;
+    left: 25px;
+    top: 25px;
+}
+
+
+/* content */
+
+/* abaut */
+
+.container .allWidth .abaut {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #fff;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(4, 4, 4, 1);
+}
+
+.container .allWidth .abaut .abaut_us {
+    width: 450px;
+    height: 250px;
+    border: 1px solid #fff;
+    margin: 50px;
+    z-index: 10;
+    
+}
+
+.container .allWidth .abaut .abaut_us h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin-bottom: 30px;
+}
+
+.container .allWidth .abaut .abaut_us h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+
+.container .allWidth .abaut .abaut_us .k_button {
+    width: 120px;
+    height: 30px;
+    border: #fff;
+    background-color: #DCCA87;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 328px;
+    margin-top: 20px;
+}
+
+.container .allWidth .abaut .abaut_us .h2 {
+    text-align: start;
+}
+
+.container .allWidth .abaut .abaut_us .h6 {
+    text-align: start;
+}
+
+.container .allWidth .abaut .abaut_us .active {
+    margin-left: 0px;
+}
+
+.container .allWidth .abaut .g {
+    width: 380px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    background: url("./img/G.png");
+    background-repeat: round;
+}
+
+.container .allWidth .abaut .knife {
+    width: 50px;
+    height: 550px;
+    z-index: 5;
+    background: url("./img/savernake-knives-f4jl2ezowuM-unsplash\ 2.png");
+    background-repeat: round;
+}
+
+/* abaut */
+
+/* table */
+
+.container .allWidth .table {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.container .allWidth .table .table_c {
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff ; 
+}
+
+
+.container .allWidth .table .table_c h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+
+.container .allWidth .table .table_c .foto {
+    width: 50px;
+    height: 10px;
+    background: url("./img/Vector\ \(1\).png");
+    background-repeat: round;
+    margin-top: 10px;
+}
+
+
+.container .allWidth .table .table_c h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+
+.container .allWidth .table .table_c .date {
+    width: 95%;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .allWidth .table .table_c .date .date_one {
+    width: 30%;
+    height: 100%;
+    border: 1px solid rgba(220, 202, 135, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container .allWidth .table .table_c .date .date_one p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+    margin-left: 10px;
+}
+
+.container .allWidth .table .table_c .date .date_one i {
+    font-size: 15px;
+    cursor: pointer;
+    color: rgba(170, 170, 170, 1);
+    margin-right: 10px;
+}
+
+
+.container .allWidth .table .table_c .t_button {
+    width: 150px;
+    height: 40px;
+    border: #fff;
+    background-color: #DCCA87;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* table */
+
+/* Bar */
+
+.container .allWidth .bar {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #fff;
+    background: url("./img/mathew-schwartz-Benzk1i1iks-unsplash\ 1.png");
+    background-repeat: round;
+}
+
+
+.container .allWidth .bar .bar_m{
+    width: 300px;
+    height: 90px;
+    margin-left: 70px;
+    margin-top: 110px;
+}
+
+.container .allWidth .bar .bar_m h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #fff;
+}
+
+.container .allWidth .bar h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #fff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Bar */
+
+/* special */
+
+.container .allWidth .special {
+    width: 100%;
+    height: 850px;
+    border: 1px solid #fff;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container .allWidth .special h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.container .allWidth .special .dikor_s {
+    width: 50px;
+    height: 10px;
+    background: url("./img/Vector\ \(1\).png");
+    background-repeat: round;
+    margin-top: 20px;
+}
+
+.container .allWidth .special h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.container .allWidth .special .sp_content {
+    width: 100%;
+    height: 650px;
+    border: 1px solid rgb(229, 218, 10);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .allWidth .special .sp_content .sp_c_one {
+    width: 350px;
+    height: 500px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .allWidth .special .sp_content .sp_c_one h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #fff;
+}
+
+.container .allWidth .special .sp_content .sp_c_one .sp_two{
+    width: 100%;
+    height: 67px;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+}
+
+.container .allWidth .special .sp_content .sp_c_one .sp_two .flex {
+    width: 100%;
+    height: 40px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .allWidth .special .sp_content .sp_c_one .sp_two .flex p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.container .allWidth .special .sp_content .sp_c_one .sp_two .flex .rax {
+    width: 80px;
+    border-top: 1px solid #fff ;
+    margin: 0px 20px;
+}
+
+.container .allWidth .special .sp_content .sp_c_one .sp_two .flex .rax h6 {
+        text-align: center;
+}
+
+.container .allWidth .special .sp_content .sp_c_one .sp_two h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+
+}
+
+.container .allWidth .special .sp_content .s_img {
+    width: 340px;
+    height: 480px;
+    border: 1px solid transparent;
+    background: url("./img/3596233\ 1.png");
+    background-repeat: round;
+    margin: 0 20px;
+}
+
+.container .allWidth .special .s_button {
+    width: 150px;
+    height: 40px;
+    border: #fff;
+    background-color: #DCCA87;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+/* special */
+
+/* chef */
+
+.container .allWidth .chef {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container .allWidth .chef .chef_img {
+    width: 550px;
+    height: 600px;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.container .allWidth .chef .chef_img .chef_one {
+    position: absolute;
+    width: 350px; 
+    height: 400px;
+    margin-left: 200px;
+    background: url("./img/Rectangle\ 21.png");
+    background-repeat: round;
+    z-index: 1;
+}
+
+.container .allWidth .chef .chef_img .chef_two {
+    position: absolute;
+    width: 350px; 
+    height: 400px;
+    margin-top: 200px;
+    background: url("./img/Rectangle\ 21.png");
+    background-repeat: round;
+    z-index: 2;
+}
+
+.container .allWidth .chef .chef_img .chef_tree {
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    height: 550px;
+    background: url("./img/cheff.jpg");
+    background-repeat: round;
+    left: 25px;
+    top: 25px; 
+}
+
+
+.container .allWidth .chef .chef_text {
+    width: 550px;
+    height: 600px;
+    border: 1px solid #fff;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.container .allWidth .chef .chef_text h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.container .allWidth .chef .chef_text .chef_dikor {
+    width: 50px;
+    height: 10px;
+    background: url("./img/Vector\ \(1\).png");
+    background-repeat: round;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.container .allWidth .chef .chef_text h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin-bottom: 50px;
+}
+
+.container .allWidth .chef .chef_text p {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+
+.container .allWidth .chef .chef_text h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin-bottom: 10px;
+
+}
+
+.container .allWidth .chef .chef_text h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+
+.container .allWidth .chef .chef_text h1 {  
+    font-family: 'Caramel', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+/* chef */
